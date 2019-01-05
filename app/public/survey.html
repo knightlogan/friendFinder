@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Logan Knight | Bestie Finder</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1><strong>Bestie Finder Survey</strong></h1>
+            <hr>
+            <h3>
+                <strong>Give us some information about yourself</strong>
+            </h3>
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" class="form-control" required>
+
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="photo" class="form-control" required="">
+            <br>
+            <h3><strong>Instructions:</strong></h3>
+            <h4>Rate how much or how little you agree with the following statements using the dropdown scale!</h4>
+            <hr>
+            <h4><strong>Question 1</strong></h4>
+            <h4>I like the outdoors.</h4>
+            <select class="chosen-select" id="q1" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 2</strong></h4> 
+            <h4>I want to be the smartest person in the room.</h4>
+            <select class="chosen-select" id="q2" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 3</strong></h4> 
+            <h4>Football is the greates sport every created!</h4>
+            <select class="chosen-select" id="q3" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 4</strong>
+            </h4>
+            <h4>Ice cream is the worst!</h4>
+            <select class="chosen-select" id="q4" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 5</strong>
+            </h4>
+            <h4>Today is always the best day.</h4>
+            <select class="chosen-select" id="q5" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 6</strong>
+            </h4>
+            <h4>I can not tell a lie.</h4>
+            <select class="chosen-select" id="q6" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 7</strong>
+            </h4>
+            <h4>Led Zeppelin defines Rock N Roll.</h4>
+            <select class="chosen-select" id="q7" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 8</strong>
+            </h4>
+            <h4>I love to travel.</h4>
+            <select class="chosen-select" id="q8" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 9</strong>
+            </h4>
+            <h4>My last meal would be Mexican food!</h4>
+            <select class="chosen-select" id="q9" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Question 10</strong>
+            </h4>
+            <h4>I believe in horoscopes.</h4>
+            <select class="chosen-select" id="q10" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <hr>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-warning btn-lg " id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                Submit</button>
+        </form>
+        <hr>
+
+        <footer>
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a></p>
+            </div>
+        </footer>
+    </div>
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" style="max-width:500px;max-height:500px;" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg"
+                        alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a></p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="survey.js"></script>
+</body>
+
+</html>
